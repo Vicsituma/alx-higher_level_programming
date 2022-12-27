@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 def list_division(my_list_1, my_list_2, list_length):
+    """divides two lists element by element"""
     lis = []
-    for i in range(list_length)
+    for i in range(0, list_length)
         try:
             div = my_list_1[i] / my_list_2[i]
         except TypeError:
